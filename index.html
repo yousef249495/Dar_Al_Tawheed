@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دار التوحيد</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/jpg" href="imgs/icon.jpg">
+    <!-- main font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="loader-container"></div>
+    <div class="loader-overlay"></div>
+    <div class="z-n1 position-fixed top-0 start-50 translate-middle-x">
+        <img src="imgs/background.jpg" alt="Background Image">
+    </div>
+    <header class="d-flex align-items-center text-center">
+        <div class="welcome-message w-75 p-4 fs-2">
+            <p class="m-0 text-white">دار التوحيد</p>
+        </div>
+        <div class="icon w-25">
+            <a href="#">
+                <img class="h-100 bg-transparent" src="imgs/icon.png" alt="دار التوحيد">
+            </a>
+        </div>
+    </header>
+    <div class="landing">
+        <div class="welcome-message mx-auto text-center">
+            <p class="text-white fs-1">أهلاً وسهلاً بضيفنا الكريم</p>
+        </div>
+        <div class="btn-box">
+            <button class="login">تسجيل دخول</button>
+            <button class="sign-up not-complete">إنشاء حساب</button>
+        </div>
+    </div>
+    <div class="form-container mx-auto">
+        <h2>نموذج تسجيل الدخول</h2>
+        <form id="loginForm" class="w-100">
+            <div class="form-group">
+                <label for="username">أسم المستخدم:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">كلمة المرور:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="error-message">
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="تسجيل الدخول">
+            </div>
+        </form>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js.map"></script> -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
